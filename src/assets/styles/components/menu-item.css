@@ -1,0 +1,88 @@
+.gl-menu-item {
+    border: none;
+    background: none;
+    align-items: center;
+    display: flex;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px 4px;
+    outline-color: var(--soft-blue);
+}
+
+.gl-menu-item__not-outline {
+    outline: none !important;
+    outline-color: unset !important;
+}
+
+.gl-menu-item:hover {
+    color: var(--soft-blue);
+}
+
+.gl-menu-item__label--link:hover {
+    border-color: var(--soft-blue);
+}
+
+.gl-menu-item:disabled {
+    color: var(--light-grey-blue);
+}
+
+.gl-menu-item__badge {
+    display: block;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    background-color: var(--lipstick);
+    line-height: 16px;
+    font-size: 10px;
+    color: var(--white);
+    text-align: center;
+    border-radius: 50%;
+    top: -4px;
+    left: -12px;
+    z-index: 2;
+}
+
+.gl-menu-item__icon {
+    margin-right: 10px;
+    min-width: 24px;
+}
+
+@media screen and (max-width: 1280px) {
+    .gl-menu-item__icon {
+        margin-right: 0;
+    }
+}
+
+.gl-menu-item__icon-after {
+    margin-left: 4px;
+}
+
+.gl-menu-item__label {
+    font-weight: 500;
+    line-height: var(--line-height);
+}
+
+.gl-menu-item__label--link {
+    border-bottom: 1px solid var(--dark);
+}
+
+.gl-menu-item__label--light {
+    color: var(--light-grey-blue);
+}
+
+.gl-menu-item__label--warn {
+    color: var(--scarlet-red);
+}
+
+.gl-menu-item__label--warn:hover {
+    color: var(--scarlet-red-dark);
+}
+
+a.gl-menu-item {
+    text-decoration: none;
+    font-size: 0.833rem;
+    color: var(--dark);
+    /*margin-bottom: 5px;*/
+}

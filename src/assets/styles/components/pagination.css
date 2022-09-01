@@ -1,0 +1,26 @@
+.o-pag {
+    background: #fff;
+    padding: 16px;
+    justify-content: center !important;
+}
+
+.o-pagination-wrapper {
+    justify-content: center !important;
+    padding: 16px;
+}
+
+.o-pag__link--current {
+    background-color: var(--soft-blue) !important;
+    border-color: var(--soft-blue) !important;
+}
+
+.o-pagination-list {
+    max-width: 400px;
+}
+
+.o-pag__previous {
+    border-color: #fff !important;
+}
+.o-pag__next {
+    border-color: #fff !important;
+}

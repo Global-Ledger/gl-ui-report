@@ -1,0 +1,409 @@
+[
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.5405067820512562
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.22837719035984794
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.07590288760989032
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.05610856056842552
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.045221627840194435
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.031891491873238816
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.013950395910325859
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.006935404649795251
+  },
+  {
+    "funds": {
+      "type": "suspended exchange",
+      "score": 80
+    },
+    "share": 0.0009498816778097738
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.00009611377756918197
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.000029045120764739623
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000056847579096682386
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000026195364447751242
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000026195364447751242
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000016463058906399217
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000016372102779844525
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000013188638350430312
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000012824813844211545
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0000010187086174125484
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 8.186051389922262e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 7.549358504039421e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 7.276490124375345e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 6.821709491601886e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 6.003104352609659e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.912148226054968e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.5483237198362e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.457367593281509e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.457367593281509e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.366411466726816e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.366411466726816e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.275455340172125e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 5.275455340172125e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.729718580843974e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.5478063277345905e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.5478063277345905e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.1839818215158233e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 3.729201188742364e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 3.6382450621876725e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 3.5472889356329804e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 3.2744205559689053e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 2.910596049750138e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 2.0919909107579116e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 2.0010347842032198e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 1.910078657648528e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 1.8191225310938362e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 1.1369515819336476e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 1.0914735186563017e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 1.0005173921016099e-7
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 9.095612655469181e-8
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 9.095612655469181e-8
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.320416011347861e-8
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 4.5478063277345907e-10
+  }
+]

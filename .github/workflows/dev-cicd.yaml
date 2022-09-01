@@ -1,0 +1,47 @@
+name: Build and Deploy develop
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  build_135_181_208_163:
+    name: Build docker image on 135.181.208.163
+    timeout-minutes: 15
+    runs-on: [gl-btc-tws-dev]
+    steps:
+      - name: permissions update
+        run: sudo chown -R ubuntu:ubuntu /home/ubuntu/actions-runner/_work/
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with: 
+          submodules: true
+          token: ${{ secrets.Z_PAT }}
+        
+      - name: SonarJob
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }} 
+        
+      - name: Test code
+        run: npm ci --prefer-offline && npm run test
+        
+      - name: secret copy
+        env:
+          ENV_FILE: ${{ secrets.ENV_FILE_135_181_208_163 }}
+        run: echo "$ENV_FILE" > .env
+        
+      - name: Build docker image
+        run: docker build -t gl-front-vision .
+
+  deploy_135_181_208_163:
+    name: Deploy docker container on 135.181.208.163
+    timeout-minutes: 15
+    runs-on: [gl-btc-tws-dev]
+    needs: build_135_181_208_163
+    steps:
+      - name: Restart docker-containers
+        working-directory: /home/ubuntu
+        run: docker-compose stop gl-front-vision && docker-compose rm -f gl-front-vision && docker-compose up -d gl-front-vision
+

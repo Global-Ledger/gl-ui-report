@@ -1,0 +1,12 @@
+.gl-form__actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gl-form__actions--centered {
+    justify-content: center;
+}
+
+.gl-form__button {
+    width: 150px;
+}

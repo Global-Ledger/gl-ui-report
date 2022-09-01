@@ -1,0 +1,18 @@
+name: Test every commit 
+on:
+  push:
+    branches:    
+      - '*'
+      - '*/*'
+      - '!master'
+      - '!stage1'
+      - '!develop'
+jobs:
+  test_on_dev_135_181_208_163:
+    name: Run tests on 135.181.208.163
+    timeout-minutes: 15
+    runs-on: [gl-btc-tws-dev]
+    steps:
+      - uses: actions/checkout@v2
+      - name: run tests
+        run: npm ci --prefer-offline && npm run test

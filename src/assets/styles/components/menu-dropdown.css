@@ -1,0 +1,19 @@
+.gl-menu-dropdown {
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px 0 rgba(89, 99, 135, 0.2);
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 7px;
+    width: fit-content;
+}
+
+.gl-menu-dropdown > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.gl-menu-dropdown__padder {
+    padding: 16px;
+}

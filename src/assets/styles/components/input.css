@@ -1,0 +1,88 @@
+/* wrapper */
+.gl-input__wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.gl-input__wrapper--full {
+    width: 100%;
+}
+
+/* label */
+.gl-input__label {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--dark-grey-6-e);
+    text-transform: uppercase;
+}
+
+.gl-input__label--invalid {
+    color: var(--lipstick);
+}
+
+/* input */
+.gl-input__input {
+    background-color: var(--pale-grey);
+    border-radius: 3px;
+    height: 30px;
+    padding: 7px 10px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.gl-input__input--textarea {
+    resize: vertical;
+    /*max-height: 150px;*/
+    min-height: 135px;
+}
+
+.gl-input__input--light {
+    background-color: var(--white);
+}
+
+.gl-input__input-h-40 {
+    height: 40px;
+}
+
+.gl-input__input--password-icon {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.gl-input__input:focus {
+    border: 1px solid var(--soft-blue);
+    outline: 0;
+}
+
+.gl-input__input--invalid {
+    border: 1px solid var(--lipstick);
+}
+
+.gl-input__input--dark {
+    color: var(--white);
+    background: rgb(255 255 255 / 0.13);
+}
+
+.gl-input__input--grey {
+    background: var(--pale-grey) !important;
+}
+
+/* error */
+.gl-input__error {
+    font-size: 12px;
+    color: var(--lipstick);
+    position: absolute;
+    right: 0;
+    top: 12px;
+}
+
+.gl-input__error--block {
+    font-size: 12px;
+    color: var(--lipstick);
+    position: initial;
+}

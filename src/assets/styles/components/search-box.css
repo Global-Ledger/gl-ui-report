@@ -1,0 +1,72 @@
+.gl-search-box {
+    display: grid;
+    grid-template-columns: auto minmax(100px, min-content);
+    grid-gap: var(--grid-gap);
+    align-items: center;
+}
+
+.gl-search-box__independent-button {
+    position: absolute;
+    top: 0;
+    background: transparent !important;
+    right: 0;
+    padding: 1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    height: -webkit-fill-available;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gl-search-box__calendar-button {
+    position: absolute;
+    top: 0;
+    background: var(--soft-blue);
+    right: 0;
+    padding: 1px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gl-search-box__independent-button--disables {
+    background: var(--light-grey-blue);
+    cursor: auto;
+}
+
+.gl-search-box__input-wrapper {
+    position: relative;
+}
+
+.gl-search-box__input {
+    width: 100%;
+    background: #fff;
+}
+
+.gl-search-box__clear-icon {
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0; right: 5px;
+    cursor: pointer;
+}
+
+.gl-search-box__clear-icon--labeled {
+    top: 30px;
+}
+
+.gl-search-box__tagging {
+    grid-template-columns: auto minmax(125px, min-content);
+}
+
+.gl-search-box__tagging-button {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.gl-search-box__full {
+    width: 100%;
+}

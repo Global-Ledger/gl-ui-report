@@ -1,0 +1,32 @@
+.gl-toast {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500 !important;
+    padding: 15px !important;
+    max-width: 350px !important;
+    border-radius: 4px !important;
+    word-break: break-word !important;
+}
+
+.gl-toast--info {
+    color: var(--soft-blue) !important;
+    background-color: #fff !important;
+}
+
+.gl-toast--error {
+    background-color: #fff !important;
+    color: var(--lipstick) !important;
+    border: 1px solid var(--lipstick) !important;
+}
+
+.gl-toast--success {
+    color: var(--space-cadet) !important;
+    background-color: #fff !important;
+}
+
+.gl-toast--success .material-icons {
+    color: #3030d6 !important;
+}
+
+.gl-tooltip {
+    white-space: break-spaces !important;
+}

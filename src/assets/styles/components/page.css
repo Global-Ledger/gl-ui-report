@@ -1,0 +1,16 @@
+.page-wrapper {
+    padding: 30px 40px;
+    overflow: auto;
+}
+.page-title {
+    /*text-transform: uppercase;*/
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 24px;
+    color: var(--space-cadet);
+}
+.page__back-link {
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

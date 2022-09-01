@@ -1,0 +1,56 @@
+.gl-checkbox {
+    padding-left: 1.5rem;
+    display: block;
+    user-select: none;
+    font-weight: 500;
+    color: var(--light-grey-blue);
+    cursor: pointer;
+}
+
+.gl-checkbox--checked,
+.gl-checkbox:hover {
+    color: var(--soft-blue);
+}
+
+.gl-checkbox__input {
+    position: absolute;
+    appearance: none;
+}
+
+/* TODO rename?*/
+.gl-checkbox__check {
+    position: absolute;
+    margin-left: -1.5rem;
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    background-color: var(--pale-grey);
+    border-radius: 2px;
+    border: 1px solid var(--light-grey-blue);
+}
+
+.gl-checkbox:hover .gl-checkbox__check {
+    border: 1px solid var(--soft-blue);
+}
+
+/* Checked */
+.gl-checkbox__input:checked + .gl-checkbox__check {
+    border: 1px solid var(--soft-blue);
+}
+
+.gl-checkbox__input:checked + .gl-checkbox__check:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--soft-blue);
+    border-radius: 1px;
+}
+
+/* Focused */
+
+.gl-checkbox__input:focus + .gl-checkbox__check {
+    box-shadow: 0 0 0 0.1rem var(--soft-blue);
+}

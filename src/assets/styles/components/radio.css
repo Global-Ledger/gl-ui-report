@@ -1,0 +1,56 @@
+.gl-radio {
+    padding-left: 1.5rem;
+    display: block;
+    user-select: none;
+    font-weight: 500;
+    color: var(--light-grey-blue);
+    cursor: pointer;
+}
+
+.gl-radio--checked,
+.gl-radio:hover {
+    color: var(--soft-blue);
+}
+
+.gl-radio__input {
+    position: absolute;
+    appearance: none;
+}
+
+/* TODO rename?*/
+.gl-radio__check {
+    position: absolute;
+    margin-left: -1.5rem;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    background-color: var(--pale-grey);
+    border-radius: 50%;
+    border: 1px solid var(--light-grey-blue);
+}
+
+.gl-radio:hover .gl-radio__check {
+    border: 1px solid var(--soft-blue);
+}
+
+/* Checked */
+.gl-radio__input:checked + .gl-radio__check {
+    border: 1px solid var(--soft-blue);
+}
+
+.gl-radio__input:checked + .gl-radio__check:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--soft-blue);
+    border-radius: 5px;
+}
+
+/* Focused */
+
+.gl-radio__input:focus + .gl-radio__check {
+    box-shadow: 0 0 0 0.1rem var(--soft-blue);
+}

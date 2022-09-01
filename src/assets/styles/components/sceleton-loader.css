@@ -1,0 +1,4 @@
+.loader {
+    border-radius: 2px !important;
+    width: calc(100% - 20px) !important;
+}

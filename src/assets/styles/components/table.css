@@ -1,0 +1,115 @@
+.table-wrap {
+    box-shadow: 0 0 8px 0 rgba(211, 211, 211, 0.64);
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gl-table-unshadow {
+    box-shadow: none !important;
+}
+
+.table-wrap__unoverflow {
+    overflow: unset;
+}
+
+.o-table {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.o-table__small-title {
+    font-size: 12px !important;
+}
+
+.o-table__th {
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    color: var(--dark-grey-6-e) !important;
+    vertical-align: middle!important;
+}
+
+.o-table__th {
+    border-width: 0 0 1px 0 !important;
+    padding: 14px !important;
+}
+
+.o-table__td {
+    padding: 12px !important;
+    vertical-align: middle !important;
+}
+
+.o-table tbody {
+    font-weight: 500 !important;
+}
+
+.o-table-has-pagination {
+    border-bottom-width: 1px !important;
+}
+
+.o-table table tr td:first-child {
+    padding-left: 40px !important;
+}
+
+.o-table table tr th:first-child {
+    padding-left: 40px !important;
+}
+
+.history-table table tr th:first-child {
+    padding-left: 0 !important;
+}
+
+.history-table table tr td:first-child {
+    padding-left: 0 !important;
+}
+
+.pagination-table {
+    font-size: 12px !important;
+    width: 100%;
+}
+
+.pagination-table table tr td:first-child {
+    padding-left: 0 !important;
+}
+
+.pagination-table table tr th:first-child {
+    padding-left: 0 !important;
+}
+
+.pagination-table table tr td {
+    padding-left: 0 !important;
+}
+
+.pagination-table table tr th {
+    padding-left: 0 !important;
+}
+
+.o-checkbox input[type=checkbox]:checked + .o-checkbox-check {
+    background-color: var(--reflex-bluet) !important;
+    background-image: unset !important;
+    border-color: var(--dark-grey-6-e) !important;
+}
+
+.o-chk__check {
+    background: transparent!important;
+    border-color: var(--dark-grey-6-e) !important;
+}
+
+.o-chk__check--checked {
+    background-color: var(--reflex-bluet) !important;
+    background-image: unset !important;
+    border-color: var(--dark-grey-6-e) !important;
+}
+
+.o-table__th-current-sort {
+   border-color: var(--dark-grey-6-e) !important;
+}
+
+.empty-users-data {
+    color: var(--dark-grey-6-e);
+    padding: 20px;
+}
+
+.inputs-outputs-table .o-table .o-table__th .o-chk {
+    display: none !important;
+}

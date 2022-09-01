@@ -1,0 +1,50 @@
+.vue-tooltip {
+    box-sizing: border-box;
+    max-width: 320px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    z-index: 100;
+    position: absolute;
+    background-color: var(--white);
+    box-shadow: 3px 3px 10px 0 rgba(170, 187, 251, 0.55);
+    border: solid 1px var(--soft-blue);
+    color: var(--dark);
+    width: auto;
+    white-space: nowrap;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+}
+
+.vue-tooltip.vue-tooltip-hidden {
+    transform: translateX(-100000px) !important;
+}
+
+.vue-tooltip .vue-tooltip-content {
+    text-align: center;
+    width: fit-content;
+}
+
+.vue-tooltip .tooltip-arrow {
+    display: none;
+}
+
+.vue-tooltip[x-out-of-boundaries] {
+    display: none;
+}
+
+.vue-tooltip[x-placement^=bottom] {
+    margin-top: 5px;
+}
+
+.vue-tooltip[x-placement^=top] {
+    margin-bottom: 5px;
+}
+
+.vue-tooltip[x-placement^=right] {
+    margin-left: 5px;
+}
+
+.vue-tooltip[x-placement^=left] {
+    margin-right: 5px;
+}

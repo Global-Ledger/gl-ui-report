@@ -1,0 +1,27 @@
+.error404 {
+    display: grid;
+    place-items: center;
+}
+
+.error404__wrapper {
+    display: grid;
+    grid-auto-columns: min-content;
+    place-items: center;
+}
+
+.error404__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 0.75;
+}
+
+.error404__subtitle {
+    text-align: center;
+    margin: 20px 0 30px;
+    line-height: 1.29;
+}
+
+.error404__button {
+    width: 220px;
+}

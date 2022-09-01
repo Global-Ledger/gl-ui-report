@@ -1,0 +1,43 @@
+@import 'base.css';
+@import 'components/button.css';
+@import 'components/checkbox.css';
+@import 'components/icon.css';
+@import 'components/input.css';
+@import 'components/form.css';
+@import 'components/analytics.css';
+@import 'components/header.css';
+@import 'components/loader.css';
+@import 'components/menu-item.css';
+@import 'components/menu-dropdown.css';
+@import 'components/modal.css';
+@import 'components/radio.css';
+@import 'components/search-box.css';
+@import 'components/tabs.css';
+@import 'components/page.css';
+@import 'components/table.css';
+@import 'components/pagination.css';
+@import 'components/toast.css';
+@import 'components/select.css';
+@import 'components/user-dropdown.css';
+@import 'components/datetimepicker.css';
+@import 'components/sceleton-loader.css';
+@import 'components/progress.css';
+@import 'components/activate.css';
+
+@import 'pages/analytics/analytics.css';
+@import 'pages/analytics/sidebar.css';
+@import 'pages/analytics/toolbar.css';
+@import 'pages/login.css';
+@import 'pages/tagging.css';
+@import 'pages/404.css';
+
+@import 'vendor/vue-tooltip.css';
+/*@import 'components/table.css';*/
+/*@import 'components/textarea.css';*/
+/*@import 'components/toast.css';*/
+/*@import 'components/tooltip.css';*/
+/*@import 'utils/transitions.css';*/
+@import 'variables.css';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Material+Icons");

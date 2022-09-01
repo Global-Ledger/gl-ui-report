@@ -1,0 +1,56 @@
+.gl-activate {
+    padding-left: 1.5rem;
+    display: block;
+    user-select: none;
+    font-weight: 500;
+    color: var(--light-grey-blue);
+    cursor: pointer;
+}
+
+.gl-activate--checked,
+.gl-activate:hover {
+    color: var(--soft-blue);
+}
+
+.gl-activate__input {
+    position: absolute;
+    appearance: none;
+}
+
+/* TODO rename?*/
+.gl-activate__check {
+    position: absolute;
+    margin-left: -1.5rem;
+    width: 1rem;
+    height: 1rem;
+    overflow: hidden;
+    background-color: var(--pale-grey);
+    border-radius: 50%;
+    border: 1px solid var(--light-grey-blue);
+}
+
+.gl-activate:hover .gl-activate__check {
+    border: 1px solid var(--soft-blue);
+}
+
+/* Checked */
+.gl-activate__input:checked + .gl-activate__check {
+    border: 1px solid var(--soft-blue);
+}
+
+.gl-activate__input:checked + .gl-activate__check:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--soft-blue);
+    border-radius: 50%;
+}
+
+/* Focused */
+
+.gl-activate__input:focus + .gl-activate__check {
+    box-shadow: 0 0 0 0.1rem var(--soft-blue);
+}

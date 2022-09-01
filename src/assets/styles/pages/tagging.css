@@ -1,0 +1,53 @@
+.tagging {
+    display: flex;
+}
+
+.tagging__block {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px 0 rgba(211, 211, 211, 0.64);
+}
+
+.tagging__sub-block {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 3px;
+    border: 1px solid var(--dark-grey-d-3);
+}
+
+.tagging__sub-title {
+    font-size: 18px;
+    color: #091540;
+    font-weight: 600;
+}
+
+.tagging__block-title {
+    font-size: 14px;
+    color: #091540;
+    font-weight: 600;
+}
+
+.tagging__main-text {
+    font-size: 14px;
+    color: #091540;
+    font-weight: 500;
+}
+
+.tagging__key {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--dark-grey-6-e);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.tagging__value {
+    font-weight: 500;
+    color: #091540;
+}
+
+.tagging__description {
+    max-width: 480px;
+    word-break: break-word;
+}

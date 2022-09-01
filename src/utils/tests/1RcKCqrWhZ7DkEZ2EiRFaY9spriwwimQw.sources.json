@@ -1,0 +1,74 @@
+[
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.533069862175272
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.2466345701124263
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.0808764764295277
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.06034745941896021
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.049893395430166666
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.018439234362795157
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.0058423810139193256
+  },
+  {
+    "funds": {
+      "type": "exchange",
+      "score": 50
+    },
+    "share": 0.004519204917526131
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.0003728354298091623
+  },
+  {
+    "funds": {
+      "default": true,
+      "type": "Small Transactions",
+      "score": 50
+    },
+    "share": 0.000004580709597435148
+  }
+]

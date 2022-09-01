@@ -1,0 +1,32 @@
+.gl-icon {
+    fill: var(--dark);
+    min-width: 24px;
+}
+
+*:hover:not(:disabled) > .gl-icon {
+    fill: var(--soft-blue);
+}
+
+.gl-icon--disabled {
+    fill: var(--light-grey-blue);
+    opacity: 0.5;
+}
+
+.gl-icon--dark {
+    fill: var(--soft-blue);
+}
+
+.gl-icon--warn {
+    fill: var(--lipstick);
+}
+
+.material-icons {
+    font-size: 40px;
+}
+
+/*.gl-icon--clear,*/
+/**:hover > .gl-icon--clear*/
+/*.gl-icon--arrow,*/
+/**:hover > .gl-icon--arrow {*/
+/*    fill: var(--white);*/
+/*}*/

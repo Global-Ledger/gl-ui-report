@@ -1,0 +1,61 @@
+.v-select {
+    background: var(--pale-grey) !important;
+    border-radius: 3px;
+}
+
+.vs__dropdown-toggle {
+    border-radius: 3px;
+    border-color: var(--pale-grey) !important;
+    min-height: 40px;
+    padding: 0 8px 4px !important;
+    font-size: 14px;
+}
+
+.tagged .vs__selected {
+    display: flex;
+    align-items: center;
+    background-color: #fff !important;
+    border: 1px solid var(--reflex-bluet)  !important;
+    border-radius: 20px !important;
+    color: var(--space-cadet) !important;
+    line-height: 1.4;
+    margin: 4px 2px 0;
+    font-family: Montserrat, serif;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 0 10px !important;
+    z-index: 0;
+}
+
+.vs__deselect {
+    fill: rgba(0,0,0,0.6);
+}
+
+.vs__dropdown-menu {
+    background: var(--pale-grey) !important;
+}
+
+.vs__dropdown-menu {
+    background: #fff !important;
+    font-weight: 500;
+    max-height: 200px !important;
+}
+
+.vs__dropdown-option {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vs__selected-options {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vs__dropdown-option--selected {
+    color: var(--reflex-bluet) !important;
+}
+
+.vs__dropdown-option--highlight {
+    background: var(--pale-grey) !important;
+    color: #333 !important;
+}
